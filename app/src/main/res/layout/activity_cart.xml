@@ -23,10 +23,12 @@
         android:id="@+id/toolBarCard"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#36DD07"
+        android:background="@color/textColor"
         app:titleTextColor="@color/white"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="Giỏ hàng"/>
+        app:title="Giỏ hàng">
+
+    </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleViewCard"
